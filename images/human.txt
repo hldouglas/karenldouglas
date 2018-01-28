@@ -1,0 +1,32 @@
+# humanstxt.org
+
+# TEAM
+
+Designer and Developer: Hannah Douglas <hannah@hannahdouglas.work>
+Site: https://hldouglas.github.io/karenldouglas/
+Github: http://github.com/hldouglas
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Thank you mum, for letting completely brand your business and code your website for you. It means a lot to me.
+
+---
+
+# TECHNOLOGY
+
+- Apple Macbook Pro
+
+## Software
+
+- Atom
+- Github
+- Illustrator
+- ImageOptim
+- Jekyll
+
+## Hosting
+
+- Go Daddy <http://godaddy.com>
