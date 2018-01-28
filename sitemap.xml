@@ -1,0 +1,28 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <!-- The <loc> tag is the only one that’s required. -->
+    <loc>https://karenldouglas.ca</loc>
+    <!-- OPTIONAL: Priority will default to 0.5 but can go up to 1.0. -->
+    <priority>1.0</priority>
+    <!-- OPTIONAL: Must be in this format -->
+    <lastmod>{{site.time | date: "%Y-%m-%d"}}</lastmod>
+    <!-- OPTIONAL: can be always, hourly, daily, weekly, monthly, yearly, never -->
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- If you want to add another page, add another <url> tag -->
+  <url>
+    <loc>https://karenldouglas.ca/intake-form/</loc>
+  </url>
+  <url>
+    <loc>https://karenldouglas.ca/faq/</loc>
+  </url>
+  <url>
+    <loc>https://karenldouglas.ca/404/</loc>
+  </url>
+
+</urlset>
