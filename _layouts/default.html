@@ -9,39 +9,62 @@
 </head>
 <body>
 
-
+  <header>
+    <h1 id="home" aria-label="Karen Douglas Consulting">
+      <title>Karen Douglas Consulting</title>
+    </h1>
+    <nav role="navigation" id="nav">
+      <ol class="list-group-inline center-text">
+        <li><a href="{{site.baseurl}}/#home">Home</a></li>
+        <li><a href="#bio">About</a></li>
+        <li><a href="{{site.baseurl}}/#intake-form">Intake Form</a></li>
+        <li><a href="{{site.baseurl}}/#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+  </header>
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#bio">Jump to about me section</a></li>
+    <li><a href="#contact">Jump to contact information section</a></li>
+  </ul>
 
   {{content}}
 
   <footer>
-    <h4 id="contact">Contact</h4>
-    <p>Karen may be reached in one of the following ways:</p>
-    <ol class="list-group">
-      <li>
-        <i class="icon i-32">
-          <img src="images/icon.svg" alt="">
-        </i>
-        Telephone:<br><a href="tel:613-265-4676">(613) 265-4676</a>
-      </li>
-      <li>
-        <i class="icon i-32">
-          <img src="images/icon.svg" alt="">
-        </i>
-        Fax:<br>(613) 424-2561
-      </li>
-      <li>
-        <i class="icon i-32">
-          <img src="images/icon.svg" alt="">
-        </i>
-        Email:<br><a href="mailto:karen@karenldouglas.ca">karen@karenldouglas.ca</a>
-      </li>
-      <li>
-        <i class="icon i-32">
-          <img src="images/icon.svg" alt="">
-        </i>
-        Mail:<br>91517 Mer Bleu Road,<br>Ottawa, ON.,<br>K1W 0A6
-      </li>
-    </ol>
+    <div>
+      <h4 id="contact">Contact</h4>
+      <p>Karen may be reached in one of the following ways</p>
+      <ol class="list-group">
+        <li>
+          <i class="icon i-32">
+            <img src="images/icon.svg" alt="">
+          </i>
+          Telephone:<br><a href="tel:613-265-4676">(613) 265-4676</a>
+        </li>
+        <li>
+          <i class="icon i-32">
+            <img src="images/icon.svg" alt="">
+          </i>
+          Fax:<br>(613) 424-2561
+        </li>
+        <li>
+          <i class="icon i-32">
+            <img src="images/icon.svg" alt="">
+          </i>
+          Email:<br><a href="mailto:karen@karenldouglas.ca">karen@karenldouglas.ca</a>
+        </li>
+        <li>
+          <i class="icon i-32">
+            <img src="images/icon.svg" alt="">
+          </i>
+          Mail:<br>91517 Mer Bleu Road,<br>Ottawa, ON.,<br>K1W 0A6
+        </li>
+      </ol>
+    </div>
+    <div>
+      <p itemprop="author">©2018 Hannah Douglas</p>
+    </div>
   </footer>
 
   <script src="{{site.baseurl}}/css/typekit.js"></script>
